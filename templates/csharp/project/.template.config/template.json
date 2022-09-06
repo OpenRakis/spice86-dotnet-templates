@@ -1,0 +1,15 @@
+{
+    "author": "Kevin Ferrare, Maximilien Noal",
+    "classifications": [ "reverse-engineering", "Spice86" ],
+    "description": "A Spice86 Reverse engineering project",
+    "name": "Spice86 reverse engineering project",
+    "identity": "Spice86.Project",
+    "groupidentity": "Spice86.Project",
+    "shortName": "spice86.project",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "Spice86ProjectTemplate",
+    "preferNameDirectory": "true"
+}
