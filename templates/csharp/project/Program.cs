@@ -5,6 +5,4 @@
 using Spice86ProjectTemplate;
 
 // Put the SHA256 checksum of your target DOS program here.
-private const string SUPPORTED_EXE_CHECKSUM = "Your_target_DOS_executable_checksum_here";
-
-Spice86.Program.RunWithOverrides<MyOverrideSupplier>(args, SUPPORTED_EXE_CHECKSUM);
+Spice86.Program.RunWithOverrides<MyOverrideSupplier>(args, "SUPPORTED_EXE_CHECKSUM");
