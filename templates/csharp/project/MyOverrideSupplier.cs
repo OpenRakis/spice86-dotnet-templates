@@ -10,5 +10,6 @@ public class MyOverrideSupplier : IOverrideSupplier
         Machine machine)
     {
         //Add overrides here.
+        return new Dictionary<SegmentedAddress, FunctionInformation>();
     }
 }
