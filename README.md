@@ -2,7 +2,7 @@
 
 # Spice86 templates for `dotnet new`
 
-For more information about `[dotnet new](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new)` templates see [here](https://blogs.msdn.microsoft.com/dotnet/2017/04/02/how-to-create-your-own-templates-for-dotnet-new/).
+For more information about `dotnet new` templates see [here](https://blogs.msdn.microsoft.com/dotnet/2017/04/02/how-to-create-your-own-templates-for-dotnet-new/).
 
 ## Installing the templates
 
