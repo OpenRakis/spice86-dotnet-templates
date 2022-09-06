@@ -2,6 +2,7 @@
 // Use "-a "some string"" to pass arguments to the emulated program.
 // See https://github.com/OpenRakis/Spice86 for more information
 
+using Spice86ProjectTemplate;
 
 // Put the SHA256 checksum of your target DOS program here.
 private const string SUPPORTED_EXE_CHECKSUM = "Your_target_DOS_executable_checksum_here";

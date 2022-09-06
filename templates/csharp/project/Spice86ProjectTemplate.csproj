@@ -13,6 +13,7 @@
 		<Using Include="Spice86.Core.Emulator.ReverseEngineer" />
 		<Using Include="Spice86.Core.Emulator.VM" />
 		<Using Include="Spice86.Core.Utils" />
+		<Using Include="Spice86.Core.Emulator.Functio" />
 	</ItemGroup>
 
 	<ItemGroup>
