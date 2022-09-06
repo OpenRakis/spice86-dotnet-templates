@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove=".gitignore" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Spice86.Core.Emulator.Memory" />
+		<Using Include="Spice86.Core.Emulator.ReverseEngineer" />
+		<Using Include="Spice86.Core.Emulator.VM" />
+		<Using Include="Spice86.Core.Utils" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Spice86" Version="2.6.4" />
+	</ItemGroup>
+</Project>
