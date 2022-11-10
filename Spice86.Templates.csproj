@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.1</PackageVersion>
+    <PackageVersion>2.2</PackageVersion>
     <PackageId>Spice86.Templates</PackageId>
     <Title>Spice86 Templates</Title>
     <Description>Templates for creating Spice86 reverse engineering projects.</Description>
@@ -12,7 +12,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/Spice86/spice86-dotnet-templates</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Spice86/spice86-dotnet-templates.git</RepositoryUrl>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
