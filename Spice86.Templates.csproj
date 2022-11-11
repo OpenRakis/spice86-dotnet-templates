@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>2.2</PackageVersion>
+    <PackageVersion>2.3</PackageVersion>
     <PackageId>Spice86.Templates</PackageId>
     <Title>Spice86 Templates</Title>
     <Description>Templates for creating Spice86 reverse engineering projects.</Description>
