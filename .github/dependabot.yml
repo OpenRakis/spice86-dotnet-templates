@@ -3,14 +3,7 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/templates/csharp/project/project.csproj"
+    directory: "templates/csharp/project"
     schedule:
-      interval: "weekly"
-      day: "wednesday"
-    open-pull-requests-limit: 5
-  - package-ecosystem: "nuget"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "wednesday"
+      interval: "daily"
     open-pull-requests-limit: 5
