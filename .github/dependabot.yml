@@ -5,5 +5,5 @@ updates:
   - package-ecosystem: "nuget"
     directory: "templates/csharp/project"
     schedule:
-      interval: "daily"
+      interval: "hourly"
     open-pull-requests-limit: 5

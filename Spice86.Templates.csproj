@@ -8,7 +8,7 @@
     <Description>Templates for creating Spice86 reverse engineering projects.</Description>
     <PackageTags>dotnet-new;templates;Spice86;Reverse;Engineering;</PackageTags>
     <Authors>Kevin Ferrare, Maximilien Noal</Authors>
-		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/Spice86/spice86-dotnet-templates</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Spice86/spice86-dotnet-templates.git</RepositoryUrl>
