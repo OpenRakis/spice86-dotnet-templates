@@ -9,7 +9,7 @@ For more information about `dotnet new` templates see [here](https://blogs.msdn.
 Run from a command line:
 
 ```powershell
-dotnet new -i Spice86.Templates
+dotnet new install Spice86.Templates
 ```
 
 The templates should now be available in `dotnet`:
@@ -20,4 +20,8 @@ Templates                              Short Name                 Language    Ta
 Spice86 Project                     spice86.project               [C#]        reverseengineering/spice86
 ```
 
-Use it to generate a new reverse engineering project.
+Use it to generate a new reverse engineering project:
+
+```
+dotnet new spice86.project
+```
