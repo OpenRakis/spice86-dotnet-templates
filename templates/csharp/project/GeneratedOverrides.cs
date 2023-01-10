@@ -1,4 +1,4 @@
-namespace generatedCodeTestProject;
+namespace Spice86ProjectTemplate;
 
 using Serilog;
 
