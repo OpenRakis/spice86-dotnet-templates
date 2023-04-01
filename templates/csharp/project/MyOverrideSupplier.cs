@@ -1,6 +1,9 @@
 namespace Spice86ProjectTemplate;
 
-using Spice86.Core.DI;
+using Spice86.Shared;
+using Spice86.Shared.Interfaces;
+using Spice86.Logging;
+using Microsoft.Extensions.DependencyInjection;
 
 /// <summary>
 /// Provides functions overrides for the DOS program.
@@ -9,7 +12,8 @@ public class MyOverrideSupplier : IOverrideSupplier {
     public Dictionary<SegmentedAddress, FunctionInformation> GenerateFunctionInformations(int programStartAddress, Machine machine) {
         Dictionary<SegmentedAddress, FunctionInformation> functionInformations = new();
         // You can extend / replace GeneratedOverrides with your own overrides as well.
-        new GeneratedOverrides(functionInformations, machine, new ServiceProvider().GetLoggerForContext<GeneratedOverrides>());
+        ILoggerService? loggerService = Program.ServiceProvider?.GetService<ILoggerService>();
+        new GeneratedOverrides(functionInformations, machine, loggerService!);
         return functionInformations;
     }
 }

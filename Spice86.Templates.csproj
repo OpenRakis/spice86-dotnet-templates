@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>2.7</PackageVersion>
+    <PackageVersion>2.8</PackageVersion>
     <PackageId>Spice86.Templates</PackageId>
     <Title>Spice86 Templates</Title>
     <Description>Templates for creating Spice86 reverse engineering projects.</Description>
@@ -21,6 +21,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="templates\csharp\project\Configuration.cs" />
+    <Compile Include="templates\csharp\project\DependencyInjectionExtensions.cs" />
+    <Compile Include="templates\csharp\project\Startup.cs" />
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
   </ItemGroup>

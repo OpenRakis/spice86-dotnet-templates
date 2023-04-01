@@ -4,5 +4,20 @@
 
 using Spice86ProjectTemplate;
 
+using Spice86.Shared;
+using Spice86.Shared.Interfaces;
+using Spice86.Logging;
+using Microsoft.Extensions.DependencyInjection;
+
+ServiceCollection services = new ServiceCollection();
+services.AddLogging();
+ServiceProvider serviceProvider = services.BuildServiceProvider();
+Program.ServiceProvider = serviceProvider;
+
 // Put the SHA256 checksum of your target DOS program here.
 Spice86.Program.RunWithOverrides<MyOverrideSupplier>(args, "SUPPORTED_EXE_CHECKSUM");
+
+public partial class Program
+{
+    public static ServiceProvider? ServiceProvider { get; set; }
+}

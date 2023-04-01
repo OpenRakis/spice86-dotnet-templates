@@ -1,8 +1,10 @@
 namespace Spice86ProjectTemplate;
 
-using Serilog;
+using Spice86.Logging;
+using Spice86.Shared;
+using Spice86.Shared.Interfaces;
 
-public class GeneratedOverrides : CSharpOverrideHelper {
-  public GeneratedOverrides(Dictionary<SegmentedAddress, FunctionInformation> functionInformations, Machine machine, ILogger logger, ushort entrySegment = 0xF000) : base(functionInformations, machine, logger) {
+public class GeneratedOverrides : CSharpOverrideHelper { 
+  public GeneratedOverrides(Dictionary<SegmentedAddress, FunctionInformation> functionInformations, Machine machine, ILoggerService logger, ushort entrySegment = 0xF000) : base(functionInformations, machine, logger) {
   }
 }
