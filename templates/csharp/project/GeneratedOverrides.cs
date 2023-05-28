@@ -8,4 +8,6 @@ using Spice86.Shared.Emulator.Memory;
 public class GeneratedOverrides : CSharpOverrideHelper { 
   public GeneratedOverrides(Dictionary<SegmentedAddress, FunctionInformation> functionInformations, Machine machine, ILoggerService logger, ushort entrySegment = 0xF000) : base(functionInformations, machine, logger) {
   }
+
+  public Dictionary<SegmentedAddress, FunctionInformation> FunctionInformation => _functionInformations;
 }
