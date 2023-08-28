@@ -19,7 +19,7 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
 		<PackageReference Include="Spice86" Version="4.1.3" />
-		<PackageReference Include="Spice86.Logging" Version="4.1.3" />
+		<PackageReference Include="Spice86.Logging" Version="6.1.4" />
 		<PackageReference Include="Spice86.Shared" Version="4.1.3" />
 		<PackageReference Include="Spice86.Aeon" Version="4.1.3" />
 		<PackageReference Include="Bufdio.Spice86" Version="4.1.3" />
