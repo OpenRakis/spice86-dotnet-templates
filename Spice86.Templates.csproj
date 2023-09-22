@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>3.3</PackageVersion>
+    <PackageVersion>3.4</PackageVersion>
     <PackageId>Spice86.Templates</PackageId>
     <Title>Spice86 Templates</Title>
     <Description>Templates for creating Spice86 reverse engineering projects.</Description>
-    <PackageTags>dotnet-new;templates;Spice86;Reverse;Engineering;</PackageTags>
+    <PackageTags>dotnet-new;templates;Spice86;reverse-engineering;</PackageTags>
     <Authors>Kevin Ferrare, Maximilien Noal, Joris van Eijden</Authors>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
@@ -21,9 +21,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="templates\csharp\project\Configuration.cs" />
-    <Compile Include="templates\csharp\project\DependencyInjectionExtensions.cs" />
-    <Compile Include="templates\csharp\project\Startup.cs" />
+    <Compile Include="templates\csharp\project\GeneratedOverrides.cs" />
+    <Compile Include="templates\csharp\project\Program.cs" />
+    <Compile Include="templates\csharp\project\MyOverrideSupplier.cs" />
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
