@@ -1,12 +1,10 @@
 namespace Spice86ProjectTemplate;
 
-using Spice86.Core.CLI;
-using Spice86.Shared;
-using Spice86.Shared.Interfaces;
-using Spice86.Shared.Emulator.Memory;
-using Spice86.Logging;
-using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
+
+using Spice86.Core.CLI;
+using Spice86.Shared.Emulator.Memory;
+using Spice86.Shared.Interfaces;
 
 /// <summary>
 /// Provides functions overrides for the DOS program.
