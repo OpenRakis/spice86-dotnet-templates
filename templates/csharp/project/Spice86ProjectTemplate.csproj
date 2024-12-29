@@ -17,10 +17,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Spice86" Version="8.0.1" />
-		<PackageReference Include="Spice86.Core" Version="8.0.1" />
-		<PackageReference Include="Spice86.Logging" Version="8.0.1" />
-		<PackageReference Include="Spice86.Shared" Version="8.0.1" />
-		<PackageReference Include="Bufdio.Spice86" Version="8.0.1" />
+		<PackageReference Include="Spice86" Version="8.0.2" />
 	</ItemGroup>
 </Project>
