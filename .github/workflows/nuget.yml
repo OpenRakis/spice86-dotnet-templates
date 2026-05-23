@@ -1,7 +1,11 @@
 name: .NET Build
 
-# Trigger the workflow on push or pull request
-on: [push]
+on:
+  push:
+    branches: [main]
+    tags:
+      - 'v*'
+  pull_request:
 
 jobs:
   build:
@@ -26,9 +30,11 @@ jobs:
       run: dotnet build --configuration Release
 
     - name: Package NuGet
+      if: startsWith(github.ref, 'refs/tags/v')
       working-directory: ./
       run: dotnet pack --include-symbols --include-source --configuration Release -o .
 
     - name: Upload NuGet
+      if: startsWith(github.ref, 'refs/tags/v')
       working-directory: ./
       run: nuget push *.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}} -SkipDuplicate

@@ -1,4 +1,4 @@
-[![downloads](https://img.shields.io/nuget/dt/avalonia.templates)](https://www.nuget.org/packages/Spice86.Templates/)
+[![downloads](https://img.shields.io/nuget/dt/Spice86.Templates)](https://www.nuget.org/packages/Spice86.Templates/)
 
 # Spice86 templates for `dotnet new`
 
