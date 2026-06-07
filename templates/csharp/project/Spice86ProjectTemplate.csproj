@@ -17,6 +17,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Spice86" Version="14.2.0" />
+		<PackageReference Include="Spice86" Version="15" />
 	</ItemGroup>
 </Project>
